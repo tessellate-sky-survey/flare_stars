@@ -1,12 +1,12 @@
 <!doctype html><html lang="en"><meta charset="utf-8">
-<title>TESSELLATE Stellar Flare Catalogue</title>
+<title>TSS Stellar Flare Catalogue</title>
 <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Stellar flares found in TESS full-frame images by the TESSELLATE transient search, with every flare star's TESSELLATE light curve.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Azeret+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="assets/site.css?v=43">
+<link rel="stylesheet" href="assets/site.css?v=44">
 <script>
 // opened from the flare card on the TSS landing page (it leaves this flag): the TSS logo covers the page while it
 // loads (#tss-cover below), and clears once the page is ready and the logo has played (tssReady, called at the end)
@@ -36,7 +36,9 @@ function tssReady(ready) {
   <a class="home" href="https://tessellate-sky-survey.github.io/">&larr; TESSELLATE Sky Survey</a>
   <header class="hero">
   <p class="eyebrow" id="eyebrow">TESS full-frame images</p>
-  <h1>TESSELLATE Stellar Flare Catalogue</h1>
+  <div class="lockup"><a href="https://tessellate-sky-survey.github.io/" title="TESSELLATE Sky Survey"><img class="mark"
+      src="assets/favicon.svg?v=1" alt="TSS logo in the flare catalogue's colours: the TESS camera footprints tiled around the ecliptic pole"></a>
+    <h1>TSS Stellar Flare Catalogue</h1></div>
   <p class="lede">Flares found by <strong>TESSELLATE</strong>, an untargeted search for transients across every TESS full-frame image, matched to their Gaia host stars. Every star has a page with its full TESSELLATE light curve, each flare's shape and classification, and where on the sky each flare came from.</p>
   </header>
   <div class="kpi" id="kpi"></div>

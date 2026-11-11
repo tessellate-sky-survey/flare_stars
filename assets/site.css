@@ -49,6 +49,10 @@ footer{margin-top:48px;padding-top:14px;border-top:1px solid var(--hairline);fon
 .hero{text-align:center;padding:36px 0 14px}
 .hero .lede{margin-left:auto;margin-right:auto}
 .hero h1{font-size:38px}
+/* TSS logo beside the title, as the logo and wordmark on the TSS landing page (and the asteroid catalogue) */
+.lockup{display:flex;align-items:center;justify-content:center;gap:18px;margin:4px 0 14px}
+.lockup h1{margin:0}
+.lockup .mark{height:80px;width:auto;display:block}
 
 /* interactive charts (charts.js): the axis titles are buttons that open a pick list */
 .chart-stage{position:relative}
@@ -254,6 +258,7 @@ table.sect.comp .sw{display:inline-block;width:16px;height:0;border-top:2.2px da
   #aladin{min-height:300px}
 }
 @media (max-width:640px){
+  .lockup{gap:12px} .lockup .mark{height:52px}
   .fprov{grid-template-columns:minmax(0,1fr)}
   main{padding:26px 14px 56px}
   h1{font-size:25px}
